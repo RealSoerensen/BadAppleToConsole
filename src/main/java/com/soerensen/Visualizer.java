@@ -51,7 +51,7 @@ public class Visualizer {
      * sends it to the
      * imageParser function
      */
-    public void grabFrame()
+    public void startGrabber()
             throws Exception, IOException {
         // Start the grabber
         getGrabber().start();
